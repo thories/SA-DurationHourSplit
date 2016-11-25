@@ -16,3 +16,7 @@ Using the mvexpand in combination with the rex command enables you to visualize 
 ---
 
 ![alt tag](https://raw.githubusercontent.com/thories/SA-DurationHourSplit/master/2016-11-25_23-03-40.png)
+
+Integrated / Used libs:
+
+Splunk SDK: https://github.com/splunk/splunk-sdk-python

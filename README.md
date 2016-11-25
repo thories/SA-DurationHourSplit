@@ -1,6 +1,8 @@
-Splunk Addon - SA-DurationHourSplit
+# Splunk Addon - SA-DurationHourSplit
 
-Splunk app which provides command to split duration into assigend hours. Example:
+Splunk app which provides command to split duration into assigend hours. 
+
+Example:
 
 Starttime: 12:30:00
 Duration: 120 minutes

@@ -1,0 +1,11 @@
+[]
+access = read : [ * ], write : [ admin ]
+export = system
+
+[commands]
+access = read : [ * ], write : [ admin ]
+export = system
+
+[searchbnf]
+access = read : [ * ], write : [ admin ]
+export = system

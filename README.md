@@ -21,6 +21,6 @@ Example:
 
 Credits:
 
-Splunk SDK: https://github.com/splunk/splunk-sdk-python
-Icon: adventure_airport_city_clock_time_town_world_icon by Olya Philipenko - https://www.iconfinder.com/hk12215
+* Splunk SDK: https://github.com/splunk/splunk-sdk-python
+* Icon: adventure_airport_city_clock_time_town_world_icon by Olya Philipenko - https://www.iconfinder.com/hk12215
 

@@ -5,9 +5,9 @@ Splunk app which provides command to split duration into assigend hours. Example
 * Duration: 120 minutes
 
 Add multivalue field to search with the following values:
-* 12:00:00_30
-* 13:00:00_60
-* 14:00:00_30
+* 12:00:00_1800
+* 13:00:00_3600
+* 14:00:00_1800
 
 Using the mvexpand in combination with the rex command enables you to visualize the  duration over time using the timechart command instead of having the duration only assigend to the hour of the event starting time. 
 

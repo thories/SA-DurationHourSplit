@@ -19,6 +19,8 @@ Example:
 
 ![alt tag](https://raw.githubusercontent.com/thories/SA-DurationHourSplit/master/static/2016-11-25_23-03-40.png)
 
-Integrated / Used libs:
+Credits:
 
 Splunk SDK: https://github.com/splunk/splunk-sdk-python
+Icon: adventure_airport_city_clock_time_town_world_icon by Olya Philipenko - https://www.iconfinder.com/hk12215
+

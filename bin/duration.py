@@ -11,7 +11,7 @@ class DurationByHour(StreamingCommand):
     field_duration = Option(require=True, validate=validators.Fieldname(),doc='''
     **Syntax:** **field=***<field>*
         **Description:** define column which contain duration usage''')
-    result = Option(require=False, validate=validators.Fieldname(),default="Duration_Hour",doc='''
+    result = Option(require=False, validate=validators.Fieldname(),default="Epoch_Duration",doc='''
     **Syntax:** **result=***<result>*
         **Description:** define column name of result column''')
 

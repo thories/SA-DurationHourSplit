@@ -13,7 +13,7 @@ Using the mvexpand in combination with the rex command enables you to visualize 
 
 Example:
 
-```| stats count | eval test=1479999508 | eval duration=1200 | durationbyhour field_starttime=test field_duration=duration | mvexpand Duration_Hour  | rex field=Duration_Hour "(?<_time>[^_]+)_(?<seconds>.+$)" | eval _time=strptime(_time,"%Y-%m-%d %H:%M:%S") | timechart span=1h sum(seconds)```
+```| stats count | eval test=1479999508 | eval duration=1200 | durationbyhour field_starttime=test field_duration=duration | mvexpand Timestamp_Duration  | rex field=Duration_Hour "(?<_time>[^_]+)_(?<seconds>.+$)" | eval _time=strptime(_time,"%Y-%m-%d %H:%M:%S") | timechart span=1h sum(seconds)```
 
 ---
 

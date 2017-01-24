@@ -7,10 +7,10 @@ class DurationByHour(StreamingCommand):
 
     field_starttime = Option(require=True, validate=validators.Fieldname(),doc='''
     **Syntax:** **field=***<field>*
-        **Description:** define column which contain current usage''')
+        **Description:** define column which contain starttime''')
     field_duration = Option(require=True, validate=validators.Fieldname(),doc='''
     **Syntax:** **field=***<field>*
-        **Description:** define column which contain duration usage''')
+        **Description:** define column which contain duration''')
     result = Option(require=False, validate=validators.Fieldname(),default="Timestamp_Duration",doc='''
     **Syntax:** **result=***<result>*
         **Description:** define column name of result column''')

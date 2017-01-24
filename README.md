@@ -18,7 +18,7 @@ result (optional) = name of result column (default=Timestamp_Duration)
 
 Example:
 
-```| stats count | eval test=1479999508 | eval duration=1200 | durationbyhour field_starttime=test field_duration=duration | mvexpand Duration_Hour  | rex field=Timestamp_Duration "(?<_time>[^_]+)_(?<seconds>.+$)" | eval _time=strptime(_time,"%Y-%m-%d %H:%M:%S") | timechart span=1h sum(seconds)```
+```| stats count | eval test=1479999508 | eval duration=1200 | durationbyhour field_starttime=test field_duration=duration | mvexpand Duration_Hour  | rex field=Duration_Hour "(?<_time>[^_]+)_(?<seconds>.+$)" | eval _time=strptime(_time,"%Y-%m-%d %H:%M:%S") | timechart span=1h sum(seconds)```
 
 ---
 

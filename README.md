@@ -1,5 +1,5 @@
 # Splunk Addon - SA-DurationHourSplit
-Splunk app which provides command to split duration into assigend hours. Example:
+Splunk app which provides command to split duration into assigned hours. Example:
 
 * Starttime: 12:30:00
 * Duration: 120 minutes
@@ -9,7 +9,7 @@ Add multivalue field to search with the following values:
 * 13:00:00_3600
 * 14:00:00_1800
 
-Using the mvexpand in combination with the rex command enables you to visualize the  duration over time using the timechart command instead of having the duration only assigend to the hour of the event starting time. 
+Using the mvexpand in combination with the rex command enables you to visualize the  duration over time using the timechart command instead of having the duration only assigned to the hour of the event starting time. 
 
 Parameters:
 field_starttime (mandatory) = name of field which contains start time. Start time value(s) needs to be an epoch timestamp (integer)
